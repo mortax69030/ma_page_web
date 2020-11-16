@@ -1,0 +1,67 @@
+body {
+    min-height: 100vh;
+    background-image: linear-gradient(to top, rgb(14, 138, 240) 0%, rgb(16, 7, 150) 100%);
+    font-family: 'Open Sans', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+.carreNoirGauche{
+    width: 400px;
+    height: 800px;
+    position: absolute;
+    left: 50px;
+    background-color: black;
+    border: 1px black solid;
+}
+
+.image{
+  width: 150px;
+  height: 150px;
+  border-radius: 15px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.titre{
+  color: ivory;
+}
+
+.coordonnee{
+  color:white;
+  font-size: 15px;
+}
+
+h3{
+  color: white;
+  display: block;
+  margin-left: 150px;
+  text-decoration:underline;
+}
+
+.competence{
+  color: ivory;
+}
+
+
+.facebook_logo{
+  width: 50px;
+  height: 50px;
+}
+
+.linkedin_logo{
+  width: 50px;
+  height: 50px;
+}
+
+.instagram_logo{
+  width: 50px;
+  height: 50px;
+}
+
+.reseaux_sociaux{
+  
+  flex-wrap: wrap-reverse;
+}
